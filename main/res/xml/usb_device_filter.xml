@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 旧雷达：CH340 -->
+    <usb-device
+        vendor-id="0x1A86"
+        product-id="0x7523" />
+    <!-- 新雷达（8003 SLAM）：0x2015:0x0008 -->
+    <usb-device
+        vendor-id="0x2015"
+        product-id="0x0008" />
+</resources>

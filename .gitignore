@@ -1,0 +1,36 @@
+.gradle/
+**/build/
+local.properties
+.gradle-user-home/
+build-apk.log
+build-offline.log
+test-offline.log
+__pycache__/
+test-decoder.log
+
+# Local editor/agent settings and account files
+.idea/
+.vscode/
+.codex/
+.agents/
+.aws/
+*.iml
+.DS_Store
+
+# Local signing keys and environment settings
+*.jks
+*.keystore
+.env
+.env.*
+!.env.example
+
+# Generated packages and logs
+*.apk
+*.aab
+*.log
+
+# Field recordings, derived data, and local hardware reference material
+/PDA_turn_*.zip
+/analysis/
+/01KLD42_嵌入式软件设计方案.docx
+/硬件架构.png

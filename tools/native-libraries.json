@@ -1,0 +1,52 @@
+{
+  "source_apk": "/home/cxz/Cartographer-Android0/app/build/outputs/apk/debug/app-debug.apk",
+  "source_apk_sha256": "d3557015c47a75e83a4a3295e81b0789b70252e858650f7e2b9e781180f39e84",
+  "abi": "arm64-v8a",
+  "libraries": {
+    "libc++_shared.so": {
+      "sha256": "92ee8da641b969254cc8723f64aa115d36c8ffa87115e38bc9cb89e3eefee839",
+      "needed": [
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ]
+    },
+    "libcartographer-jni.so": {
+      "sha256": "d48cbb50f09a36b28cb3d244511d3493eff157e34652413cba931cb627708c4e",
+      "needed": [
+        "liblog.so",
+        "libandroid.so",
+        "libz.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ]
+    },
+    "libfloorplan-jni.so": {
+      "sha256": "ffcfc287b83516b3e6217d6089e46ecf0e21c0093e53920c3eae9a7d9b0d44ab",
+      "needed": [
+        "libopencv_java4.so",
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ]
+    },
+    "libopencv_java4.so": {
+      "sha256": "e9b8ac06327b880c94a6c4ee81604a791bc3c313c4e2200530aa23614352be59",
+      "needed": [
+        "libdl.so",
+        "libm.so",
+        "liblog.so",
+        "libjnigraphics.so",
+        "libz.so",
+        "libmediandk.so",
+        "libc.so",
+        "libc++_shared.so"
+      ]
+    }
+  }
+}
